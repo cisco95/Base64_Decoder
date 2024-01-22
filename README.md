@@ -1,5 +1,5 @@
 # Base64_Decoder
-###Decodes Base64 encoded text
+### Decodes Base64 encoded text
 
 Created as a lightweight tool with no dependencies for minimum maintenance required. Used to decode emails that have been base64 encoded mistakenly due to HTML signature sections not being parsed correctly. 
 
