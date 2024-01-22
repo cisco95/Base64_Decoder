@@ -1,0 +1,85 @@
+:root {
+    --main-blue: #0057B8;
+    --light-blue: #c2e2ff;
+    --main-white: #ffffff;
+}
+
+html { 
+    font-size: 62.5%;
+    font-family: "Aleck Sans", sans-serif;
+    border: 0;
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(0,121,177,1) 0%, rgba(0,201,255,1) 100%);
+}
+
+.content {
+    width: 75%;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content:not(#submission-form){
+    color: var(--main-white);
+}
+
+.header {
+    font-size: 3.2rem;
+}
+
+.instructions-header {
+    font-size: 2.4rem;
+}
+
+.instructions {
+    font-size: 1.6rem;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+
+#submission-form textarea{
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    width: 75%;
+    height: 40vh;
+    background-color: var(--light-blue);
+    border-radius: 10px;
+}
+#submission-form button{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--main-white);
+    background-color: var(--main-blue);
+    padding: 1em 2em;
+    border-radius: 50px;
+    border-color: var(--main-blue);
+    cursor: pointer;
+}
+
+#results {
+    font-size: 3.2rem;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.results {
+    font-size: 1.6rem;
+    margin: 0 auto;
+    padding-top: 1em;
+    white-space: pre-wrap;
+    padding: 4em 4em 10em;
+    border-radius: 50px;
+    background-color: var(--light-blue);
+    overflow-wrap: normal;    
+}
+footer {
+    font-size: 1rem;
+}
